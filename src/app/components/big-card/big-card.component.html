@@ -1,1 +1,16 @@
-<p>big-card works!</p>
+<section class="container-big-card">
+    <figure>
+        <img 
+        src="{{ bigCard.img }}"
+        alt=""
+        srcset="">
+    </figure>
+    <article class="big-card-title">
+        <h1><a [routerLink]="['content', bigCard.id]">{{bigCard.title}}</a></h1>
+    </article>
+    <article>
+        <p>
+           {{bigCard.description}}
+        </p>
+    </article>
+</section>

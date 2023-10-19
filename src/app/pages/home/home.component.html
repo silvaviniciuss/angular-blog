@@ -1,0 +1,9 @@
+<app-menu-title></app-menu-title>
+<section>
+    <article>
+        <app-big-card [bigCard]="livros[3]"></app-big-card>
+    </article>
+    <aside>
+        <app-small-card *ngFor="let item of livros" [smallCard]="item"></app-small-card>
+    </aside>
+</section>

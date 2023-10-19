@@ -1,1 +1,11 @@
-<p>small-card works!</p>
+<section class="container-small-card">
+    <section class="container-small-card-content">
+        <figure>
+            <img src="{{smallCard.img}}" alt="" srcset="">
+        </figure>
+        <article class="small-card-title">
+            <h1><a [routerLink]="['content', smallCard.id]">{{smallCard.title}}</a></h1>
+        </article>
+    </section>
+    <hr>
+</section>

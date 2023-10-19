@@ -1,0 +1,32 @@
+.container-small-card {
+  width: 700px;
+  margin-bottom: 15px;
+  color: grey;
+}
+
+.container-small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-small-card-content figure img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+ 
+.container-small-card-content article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white
+}
+
+.container-small-card hr{
+    margin-top: 15px;
+}
+
+.small-card-title a{
+  color: white;
+}
